@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# SQLite WAL temp files (generated at runtime, not needed in git)
+db/*.db-shm
+db/*.db-wal
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
